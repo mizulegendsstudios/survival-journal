@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Survival Journal - Aprende Jugando</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="splash-screen" class="splash">
+        <h1>🌍 THE SURVIVAL JOURNAL</h1>
+        <p>Cargando tu aventura...</p>
+        <div class="loader"></div>
+    </div>
+
+    <div id="game-container" style="display:none;">
+        <header>
+            <div class="player-info">
+                <span id="player-level">Nivel 1</span>
+                <span id="player-xp">✨ 0 XP</span>
+                <span id="player-badges">🏅 0</span>
+            </div>
+            <h1 id="game-title">The Survival Journal</h1>
+            <button id="menu-toggle">📚 Capítulos</button>
+        </header>
+
+        <main>
+            <div id="chapter-selector" class="chapter-grid"></div>
+            <div id="mission-view" style="display:none;">
+                <button id="back-to-chapters" class="back-btn">← Volver a capítulos</button>
+                <div id="mission-content"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
