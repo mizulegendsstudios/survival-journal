@@ -1,0 +1,434 @@
+{
+  "gameTitle": "The Survival Journal: Aprende a Reconstruir el Mundo",
+  "player": {
+    "level": 1,
+    "experience": 0,
+    "badges": []
+  },
+  "chapters": [
+    {
+      "id": "water",
+      "title": "🌊 Capítulo 1: El Agua, Fuente de Vida",
+      "icon": "💧",
+      "ageRange": "6+",
+      "missions": [
+        {
+          "id": "water_find",
+          "title": "Misión 1.1: Encontrar agua limpia",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Busca agua que se mueva (ríos, arroyos). El agua estancada puede tener gérmenes.",
+              "image": "🏞️",
+              "question": "¿Qué tipo de agua es más segura?",
+              "options": ["Agua estancada de un charco", "Agua que fluye en un río", "Agua con color verdoso"],
+              "correct": 1,
+              "funFact": "¡Los ríos se limpian solos! El movimiento y las piedras filtran el agua."
+            },
+            {
+              "order": 2,
+              "instruction": "Si el agua no es clara, construye un filtro simple.",
+              "materials": ["Botella de plástico", "Piedras pequeñas", "Arena", "Carbón vegetal", "Trapo"],
+              "steps": [
+                "Corta la botella por la mitad",
+                "Pon el trapo en el cuello de la botella (boca abajo)",
+                "Capa de carbón",
+                "Capa de arena",
+                "Capa de piedras"
+              ],
+              "image": "🧪",
+              "question": "¿Qué material ayuda a eliminar el mal sabor?",
+              "options": ["Piedras", "Arena", "Carbón vegetal"],
+              "correct": 2
+            },
+            {
+              "order": 3,
+              "instruction": "Después de filtrar, hay que hervir el agua para matar gérmenes.",
+              "image": "🔥",
+              "warning": "¡Nunca bebas agua sin hervir aunque parezca limpia!",
+              "question": "¿Cuánto tiempo debe hervir el agua para ser segura?",
+              "options": ["Hasta que haga burbujas", "Al menos 5 minutos", "No hace falta hervir si filtraste"],
+              "correct": 1,
+              "funFact": "Hervir el agua por 5 minutos mata bacterias, virus y parásitos."
+            }
+          ],
+          "reward": {
+            "badge": "Medalla del Agua 💧",
+            "experience": 100
+          }
+        },
+        {
+          "id": "water_store",
+          "title": "Misión 1.2: Almacenar agua sin que se eche a perder",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Usa recipientes limpios con tapa. Evita que le dé el sol directo.",
+              "image": "🧴",
+              "question": "¿Dónde es mejor guardar el agua?",
+              "options": ["Al sol para que se mantenga caliente", "En un lugar fresco y oscuro", "En el suelo sin tapa"],
+              "correct": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "🏠 Capítulo 2: Construir un Refugio Seguro",
+      "icon": "🏕️",
+      "ageRange": "8+",
+      "missions": [
+        {
+          "id": "shelter_choose",
+          "title": "Misión 2.1: Elegir el lugar perfecto",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Evita construir en lugares bajos donde pueda inundarse.",
+              "image": "⛰️",
+              "question": "¿Qué lugar es más seguro para construir?",
+              "options": ["Fondo de un valle", "Loma o colina", "Cerca de un río seco"],
+              "correct": 1
+            },
+            {
+              "order": 2,
+              "instruction": "Busca árboles fuertes para protegerte del viento, pero no debajo de ramas muertas.",
+              "image": "🌲",
+              "question": "¿Por qué no debes construir debajo de ramas grandes y secas?",
+              "options": ["Dan mucha sombra", "Pueden caerse con el viento", "Ahuyentan los animales"],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "shelter_build",
+          "title": "Misión 2.2: Construir paredes que no se caigan",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Para que una pared no se caiga con un temblor, debe ser flexible.",
+              "materials": ["Madera", "Cañas", "Barro", "Piedras"],
+              "image": "🧱",
+              "question": "¿Qué mezcla es buena para unir piedras?",
+              "options": ["Agua con arena", "Barro con paja", "Hojas secas"],
+              "correct": 1,
+              "funFact": "La paja en el barro actúa como el acero en el concreto: ¡lo hace más resistente!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "🌱 Capítulo 3: Cultivar tu Comida",
+      "icon": "🍋",
+      "ageRange": "6+",
+      "missions": [
+        {
+          "id": "lemon_tree",
+          "title": "Misión 3.1: Sembrar un árbol de limón",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Consigue una semilla de limón o un esqueje (rama) de un limonero.",
+              "image": "🍋",
+              "question": "¿Qué parte del limón sirve para sembrar?",
+              "options": ["La cáscara", "La semilla de adentro", "El jugo"],
+              "correct": 1
+            },
+            {
+              "order": 2,
+              "instruction": "Prepara la tierra: debe estar suelta y con abono (composta).",
+              "image": "🌱",
+              "question": "¿Qué puedes usar como abono natural?",
+              "options": ["Plásticos triturados", "Cáscaras de frutas y hojas secas", "Piedras"],
+              "correct": 1
+            },
+            {
+              "order": 3,
+              "instruction": "Planta la semilla a 2 cm de profundidad y riégala sin encharcar.",
+              "image": "💧",
+              "question": "¿Cada cuánto debes regar un limón recién plantado?",
+              "options": ["Cada hora", "Cuando la tierra esté seca (cada 2-3 días)", "Nunca, el limón no necesita agua"],
+              "correct": 1
+            },
+            {
+              "order": 4,
+              "instruction": "El árbol tarda 3-4 años en dar frutos. Mientras tanto, cuida las hojas.",
+              "image": "🍃",
+              "question": "¿Qué plaga es común en los limones?",
+              "options": ["Hormigas", "Pulgones (bichitos verdes)", "Mariposas"],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "lemon_harvest",
+          "title": "Misión 3.2: Cosechar y hacer jugo",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "El limón está listo cuando está amarillo y se desprende fácil.",
+              "image": "🍋",
+              "question": "¿Cómo saber si un limón está maduro?",
+              "options": ["Está duro como una piedra", "Está amarillo y suave", "Tiene manchas negras"],
+              "correct": 1
+            },
+            {
+              "order": 2,
+              "instruction": "Para hacer jugo, córtalo por la mitad y exprímelo.",
+              "image": "🧃",
+              "question": "¿Qué más puedes añadir al jugo si tienes?",
+              "options": ["Azúcar o miel", "Sal", "Aceite"],
+              "correct": 0
+            }
+          ]
+        },
+        {
+          "id": "lemon_sell",
+          "title": "Misión 3.3: Vender limones (Matemáticas y trueque)",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Si tienes 10 limones y cada limón lo cambias por 2 panes, ¿cuántos panes obtienes?",
+              "image": "🧮",
+              "question": "Haz la cuenta: 10 limones × 2 panes = ?",
+              "options": ["12 panes", "20 panes", "5 panes"],
+              "correct": 1,
+              "math": true
+            },
+            {
+              "order": 2,
+              "instruction": "Si alguien te da 15 panes por 8 limones, ¿es un buen trato?",
+              "image": "🤔",
+              "question": "¿Cuántos panes te darían por 8 limones si fuera el trato anterior (2 panes por limón)?",
+              "options": ["16 panes (mejor el trato anterior)", "15 panes (es casi igual)", "8 panes"],
+              "correct": 0,
+              "funFact": "En tiempos difíciles, el trueque justo es importante para que todos confíen en ti."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "🩹 Capítulo 4: Cuidar tu Salud",
+      "icon": "🏥",
+      "ageRange": "8+",
+      "missions": [
+        {
+          "id": "wound_care",
+          "title": "Misión 4.1: Curar un corte",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Lávate las manos con agua limpia (y jabón si tienes) ANTES de tocar la herida.",
+              "image": "🧼",
+              "question": "¿Por qué es importante lavarse las manos?",
+              "options": ["Para no ensuciar la herida", "Para que no duela", "Para que sangre menos"],
+              "correct": 0
+            },
+            {
+              "order": 2,
+              "instruction": "Lava la herida con agua limpia para quitar tierra y gérmenes.",
+              "image": "🚿",
+              "warning": "Si no tienes agua limpia, no la laves, mejor cúbrela."
+            },
+            {
+              "order": 3,
+              "instruction": "Presiona con un trapo limpio para detener la sangre.",
+              "image": "🤕",
+              "question": "¿Cuánto tiempo debes presionar?",
+              "options": ["Hasta que deje de sangrar (unos minutos)", "Un segundo", "Hasta que duela"],
+              "correct": 0
+            },
+            {
+              "order": 4,
+              "instruction": "Cubre con un trapo limpio o venda. Cambia el vendaje cada día.",
+              "image": "🩹",
+              "question": "Si la herida se pone roja, caliente y duele más...",
+              "options": ["Está sanando bien", "Puede estar infectada, busca ayuda", "Pon más presión"],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "natural_remedies",
+          "title": "Misión 4.2: Vitaminas y remedios naturales",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Cada comida de color diferente te da vitaminas distintas:",
+              "table": [
+                {"color": "🥕 Naranja (zanahoria, naranja)", "vitamina": "Vitamina A (para la vista)"},
+                {"color": "🍋 Amarillo (limón, plátano)", "vitamina": "Vitamina C (para heridas)"},
+                {"color": "🥬 Verde (espinaca, lechuga)", "vitamina": "Hierro (para la sangre)"}
+              ],
+              "image": "🥗",
+              "question": "Si te cortas, ¿qué color de comida necesitas más?",
+              "options": ["Naranja (Vitamina A)", "Amarillo (Vitamina C)", "Verde (Hierro)"],
+              "correct": 1
+            },
+            {
+              "order": 2,
+              "instruction": "Para el dolor de estómago, la manzanilla es buena. Para la fiebre, paños de agua fría.",
+              "image": "🌿",
+              "question": "Si tienes fiebre, ¿qué debes hacer?",
+              "options": ["Taparte con muchas mantas", "Ponerte paños fríos en la frente", "No hacer nada"],
+              "correct": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "title": "💰 Capítulo 5: Contabilidad y Trueque",
+      "icon": "📊",
+      "ageRange": "10+",
+      "missions": [
+        {
+          "id": "accounting_basic",
+          "title": "Misión 5.1: Llevar cuentas",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Todo lo que tienes (comida, herramientas) es tu INVENTARIO.",
+              "image": "📦",
+              "question": "¿Qué deberías anotar en tu cuaderno?",
+              "options": ["Solo lo que te gusta", "Todo lo que tienes y lo que intercambias", "Nada, es pérdida de tiempo"],
+              "correct": 1
+            },
+            {
+              "order": 2,
+              "instruction": "Lo que produces (ej. limones) son tus GANANCIAS.",
+              "image": "📈",
+              "question": "Si tenías 5 limones, cosechaste 10 y vendiste 7, ¿cuántos limones te quedan?",
+              "options": ["5 + 10 = 15, menos 7 = 8 limones", "10 limones", "5 limones"],
+              "correct": 0,
+              "math": true
+            }
+          ]
+        },
+        {
+          "id": "marketing",
+          "title": "Misión 5.2: Cómo vender más",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Si tus limones son los más grandes, dilo. Si están limpios, muéstralos.",
+              "image": "📣",
+              "question": "¿Qué es más importante al vender?",
+              "options": ["Gritar más fuerte", "Que tu producto sea bueno y la gente confíe", "Vender lo más caro posible"],
+              "correct": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "🧵 Capítulo 6: Hacer y Reparar Ropa",
+      "icon": "👕",
+      "ageRange": "8+",
+      "missions": [
+        {
+          "id": "sewing_basic",
+          "title": "Misión 6.1: Coser un botón",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Necesitas aguja, hilo y el botón.",
+              "image": "🪡",
+              "steps": [
+                "Pasa el hilo por la aguja y haz un nudo al final",
+                "Clava la aguja desde adentro de la tela hacia afuera por un agujero del botón",
+                "Pon un palillo o alfiler sobre el botón para dejar espacio (para que no quede muy apretado)",
+                "Pasa la aguja por el otro agujero varias veces (5-6 veces)",
+                "Termina enrollando el hilo alrededor de la base del botón (forma un tallito)",
+                "Clava la aguja hacia adentro y haz un nudo"
+              ],
+              "question": "¿Para qué sirve el palillo?",
+              "options": ["Para que el botón no quede muy apretado", "Para decorar", "Para pinchar la tela"],
+              "correct": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "🔨 Capítulo 7: Herramientas Básicas",
+      "icon": "🛠️",
+      "ageRange": "10+",
+      "missions": [
+        {
+          "id": "knife_making",
+          "title": "Misión 7.1: Hacer un cuchillo de piedra",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Busca una piedra que al golpearla se rompa en hojas afiladas (sílex, obsidiana o cuarzo).",
+              "image": "🪨",
+              "warning": "¡Ten cuidado! Los bordes son muy filosos."
+            },
+            {
+              "order": 2,
+              "instruction": "Golpea la piedra con otra más redonda para sacar lascas.",
+              "image": "🔨",
+              "question": "¿Qué ángulo de golpe es mejor?",
+              "options": ["Golpe recto (90°)", "Golpe inclinado (45°)", "No importa"],
+              "correct": 1
+            },
+            {
+              "order": 3,
+              "instruction": "Elige una lasca con filo. Puedes envolver un extremo con cuero o tela para el mango.",
+              "image": "🔪",
+              "question": "¿Para qué sirve envolver el mango?",
+              "options": ["Para no cortarte", "Para que se vea bonito", "Para que pese más"],
+              "correct": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "title": "🔥 Capítulo 8: Hacer Fuego",
+      "icon": "🔥",
+      "ageRange": "10+",
+      "missions": [
+        {
+          "id": "fire_methods",
+          "title": "Misión 8.1: Métodos para hacer fuego",
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Método 1: Con lupa o gafas. Enfoca el sol sobre hojas secas hasta que humee.",
+              "image": "🔍",
+              "question": "¿Qué día funciona este método?",
+              "options": ["Solo días nublados", "Días soleados", "De noche"],
+              "correct": 1
+            },
+            {
+              "order": 2,
+              "instruction": "Método 2: Arco de fuego. Necesitas madera blanda, un arco con cuerda y hacer girar un palo.",
+              "image": "🏹",
+              "steps": [
+                "Haz un hoyo en una tabla de madera blanda",
+                "Enrolla la cuerda del arco alrededor de un palo (vástago)",
+                "Pon el vástago en el hoyo y muévelo como si serrucharas",
+                "El roce creará polvo negro caliente",
+                "Pasa ese polvo a un nido de hojas secas y sopla"
+              ],
+              "question": "¿Qué necesitas para que el polvo se convierta en llama?",
+              "options": ["Agua", "Soplar suavemente hasta que avive", "Dejarlo quieto"],
+              "correct": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
